@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "engines": {
-    "node": "14.x"
+    "node": "14.11.x",
+    "npm": "6.14.x"
   },
   "scripts": {
     "start": "node ./bin/www"
@@ -14,6 +15,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "ejs": "3.1.5"
   }
 }
